@@ -1,13 +1,1 @@
-sap.ui.define(
-    ["sap/ui/core/mvc/Controller"],
-    /**
-     * @param {typeof sap.ui.core.mvc.Controller} BaseController
-     */
-    function (BaseController) {
-        "use strict";
-
-        return BaseController.extend("cv.cv.controller.controller.App", {
-            onInit() {},
-        });
-    }
-);
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(e){"use strict";return e.extend("cv.cv.controller.controller.App",{onInit(){}})});

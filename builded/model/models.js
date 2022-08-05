@@ -1,1 +1,0 @@
-sap.ui.define(["sap/ui/model/json/JSONModel","sap/ui/Device"],function(e,n){"use strict";return{createDeviceModel(){const o=new e(n);o.setDefaultBindingMode("OneWay");return o},createLayoutModel(){const o=new e({layout:n.system.phone?"OneColumn":"TwoColumnsMidExpanded"});return o}}});

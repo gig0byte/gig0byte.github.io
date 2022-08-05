@@ -1,1 +1,0 @@
-sap.ui.define(["sap/ui/core/UIComponent","sap/ui/Device","cv/cv/model/models"],function(e,t,i){"use strict";return e.extend("cv.cv.Component",{metadata:{manifest:"json"},init(){e.prototype.init.apply(this,arguments);this.getRouter().initialize();this.setModel(i.createDeviceModel(),"device");this.setModel(i.createLayoutModel(),"layout")}})});
